@@ -50,12 +50,12 @@ Task Master is a lightweight task scheduler designed for microcontrollers. It pr
     }
 
 
-API Reference
+# API Reference
     - init_scheduler(): Initializes the task scheduler.
     - create_task(void (*task_func)(), int priority): Creates a new task with the specified function and priority.
     - start_scheduler(): Starts the scheduler to begin task execution.
 
-Contributing
+# Contributing
 Contributions are welcome! If you'd like to contribute to Task Master, please follow these steps:
 
     - Fork the repository.
@@ -64,5 +64,5 @@ Contributions are welcome! If you'd like to contribute to Task Master, please fo
     - Push to the branch (git push origin feature/YourFeature).
     - Open a pull request.
     
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
