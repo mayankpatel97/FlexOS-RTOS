@@ -24,30 +24,30 @@ Task Master is a lightweight task scheduler designed for microcontrollers. It pr
 
 # Usage
 
-#include "task_master.h"
+    #include "task_master.h"
 
-// Define your tasks
-void task1() {
-    // Task 1 implementation
-}
+    // Define your tasks
+    void task1() {
+        // Task 1 implementation
+    }
 
-void task2() {
-    // Task 2 implementation
-}
+    void task2() {
+        // Task 2 implementation
+    }
 
-int main() {
-    // Initialize the scheduler
-    init_scheduler();
+    int main() {
+        // Initialize the scheduler
+        init_scheduler();
 
-    // Create tasks with priority
-    create_task(task1, HIGH_PRIORITY);
-    create_task(task2, LOW_PRIORITY);
+        // Create tasks with priority
+        create_task(task1, HIGH_PRIORITY);
+        create_task(task2, LOW_PRIORITY);
 
-    // Start the scheduler
-    start_scheduler();
+        // Start the scheduler
+        start_scheduler();
 
-    return 0;
-}
+        return 0;
+    }
 
 
 API Reference
