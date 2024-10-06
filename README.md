@@ -10,12 +10,6 @@ Task Master is a lightweight task scheduler designed for microcontrollers. It pr
 - Easy Integration: Simple API to integrate with existing embedded systems.
 - Lightweight: Minimal footprint suitable for resource-constrained environments.
 
- Getting Started
-
-# Prerequisites
-- A compatible microcontroller (e.g., STM32, Arduino, ESP32)
-- Basic understanding of C/C++ programming
-
 # Installation
 1. Clone the repository:
    ```bash
