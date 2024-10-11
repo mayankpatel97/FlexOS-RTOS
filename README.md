@@ -1,9 +1,10 @@
-# Task Master
+# FlexOS
 
  Overview
 Task Master is a lightweight task scheduler designed for microcontrollers. It provides an efficient way to manage and prioritize tasks, ensuring that critical processes meet their deadlines in real-time applications. This scheduler is ideal for embedded systems requiring multitasking capabilities.
 
-🚧 Under Development Please note: This firmware is currently in the development stage. Features may change, and the code may contain bugs. Use with caution and report any issues you encounter.
+🚧 Under Development 
+Please note: This firmware is currently in the development stage. Features may change, and the code may contain bugs. Use with caution and report any issues you encounter.
 
  Features
 - Priority-Based Scheduling: Assign different priorities to tasks to ensure critical tasks run first.
@@ -15,7 +16,7 @@ Task Master is a lightweight task scheduler designed for microcontrollers. It pr
 # Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mayankpatel97/task-master.git
+   git clone https://github.com/mayankpatel97/FlexOS-RTOS.git
 
 
 # Usage
