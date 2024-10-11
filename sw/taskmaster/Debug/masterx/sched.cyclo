@@ -1,0 +1,3 @@
+../masterx/sched.c:22:6:taskInit	2
+../masterx/sched.c:37:6:tim_handler	1
+../masterx/sched.c:64:6:startSched	1
