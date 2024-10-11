@@ -3,6 +3,8 @@
  Overview
 Task Master is a lightweight task scheduler designed for microcontrollers. It provides an efficient way to manage and prioritize tasks, ensuring that critical processes meet their deadlines in real-time applications. This scheduler is ideal for embedded systems requiring multitasking capabilities.
 
+🚧 Under Development Please note: This firmware is currently in the development stage. Features may change, and the code may contain bugs. Use with caution and report any issues you encounter.
+
  Features
 - Priority-Based Scheduling: Assign different priorities to tasks to ensure critical tasks run first.
 - Preemptive Scheduling: High-priority tasks can interrupt lower-priority tasks, allowing for responsive real-time performance.
