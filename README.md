@@ -59,6 +59,9 @@ tm_startSched(): Starts the preemptive task scheduler, enabling task switching a
 tm_tick_handler(): Scheduler tick handler for time slicing and task switching, typically triggered by a timer interrupt.
 taskDelay(uint32_t ticks): Delays the current task by a specific number of ticks.
 
+# Block Diagram
+![screenshot](FlexOS_BlockDiagram.png)
+
 # Contributing
 Contributions are welcome! To contribute to FlexOS, please follow these steps:
 
