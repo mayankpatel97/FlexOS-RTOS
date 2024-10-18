@@ -1,6 +1,8 @@
 # FlexOS
 FlexOS is a lightweight Real-Time Operating System (RTOS) designed for microcontrollers, featuring a preemptive task scheduler. FlexOS provides efficient task management, prioritization, and scheduling, ensuring that critical processes are handled with real-time responsiveness. Its minimal footprint makes it ideal for resource-constrained embedded systems.
 
+![screenshot](FlexOS_BlockDiagram.png)
+
 🚧 Under Development
 FlexOS is currently under development. Expect feature enhancements and potential bugs. Please report any issues encountered.
 
@@ -58,9 +60,6 @@ tm_startTask(int priority, void (*taskFunc)(void)): Registers a task with a spec
 tm_startSched(): Starts the preemptive task scheduler, enabling task switching and priority-based scheduling.
 tm_tick_handler(): Scheduler tick handler for time slicing and task switching, typically triggered by a timer interrupt.
 taskDelay(uint32_t ticks): Delays the current task by a specific number of ticks.
-
-# Block Diagram
-![screenshot](FlexOS_BlockDiagram.png)
 
 # Contributing
 Contributions are welcome! To contribute to FlexOS, please follow these steps:
