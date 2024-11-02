@@ -1,0 +1,42 @@
+rtos/
+├── kernel/
+│   ├── scheduler.c
+│   ├── context.c
+│   └── syscalls.c
+├── task/
+│   ├── task.c
+│   ├── priority.c
+│   └── states.c
+├── memory/
+│   ├── malloc.c
+│   ├── mpu.c
+│   └── pools.c
+├── sync/
+│   ├── semaphore.c
+│   ├── mutex.c
+│   └── events.c
+├── ipc/
+│   ├── queue.c
+│   ├── mailbox.c
+│   └── pipe.c
+├── time/
+│   ├── timer.c
+│   ├── delay.c
+│   └── systick.c
+├── interrupt/
+│   ├── isr.c
+│   ├── nvic.c
+│   └── vectors.c
+├── drivers/
+│   ├── gpio.c
+│   ├── uart.c
+│   └── spi.c
+├── port/
+│   ├── arm/
+│   │   └── port.c
+│   └── risc-v/
+│       └── port.c
+└── include/
+    ├── rtos.h
+    ├── kernel.h
+    └── config.h
