@@ -1,7 +1,7 @@
 # FlexOS
 FlexOS is a lightweight Real-Time Operating System (RTOS) designed for microcontrollers, featuring a preemptive task scheduler. FlexOS provides efficient task management, prioritization, and scheduling, ensuring that critical processes are handled with real-time responsiveness. Its minimal footprint makes it ideal for resource-constrained embedded systems.
 
-![screenshot](FlexOS_BlockDiagram.jpg)
+![screenshot](FlexOS_BlockDiagram.png)
 
 🚧 Under Development
 FlexOS is currently under development. Expect feature enhancements and potential bugs. Please report any issues encountered.
